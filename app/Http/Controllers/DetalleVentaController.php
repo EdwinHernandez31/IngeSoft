@@ -16,6 +16,7 @@ class DetalleVentaController extends Controller
     }
     public function listar(){
         return DetalleVenta::all();
+        /*solo son ventas*/
     }
 
 }
